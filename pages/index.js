@@ -1,16 +1,19 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import Layout from "../components/Layout";
 
-const Index =  () => (
+import Layout from '../components/Layout';
+import React from "react";
+
+
+
+const Index = (props) => (
     <Layout>
         <div>
-            <Navbar/>
-            <h1> Welcome to BitzPrice  </h1>
+            <h1>Welcome to BitzPrice</h1>
+            <p>Check current Bitcoin rate</p>
+
         </div>
     </Layout>
-
-
 );
+
+
 
 export default Index;
